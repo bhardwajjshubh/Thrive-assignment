@@ -24,10 +24,7 @@ const PayClick = () => {
 
           {/* Right Section: Image */}
           <div className="ppc-image">
-            <img
-              src="./src/assets/Illustration.png"
-              alt="Pay-per-click visual"
-            />
+            <img src="./Illustration.png" alt="Pay-per-click visual" />
           </div>
         </div>
       </div>

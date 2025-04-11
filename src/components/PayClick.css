@@ -1,0 +1,85 @@
+.ppc-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  width: 100vw;
+  background-color: #f5f5f5; 
+}
+
+
+.ppc-card {
+  background-color: #b9ff66;
+  border-radius: 45px;
+  width: 600px;
+  padding: 40px 50px;
+  border: 1px solid black; 
+  border-bottom: 7px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 310px;
+  box-sizing: border-box;
+}
+
+.ppc-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.ppc-left {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.ppc-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ppc-title,
+.ppc-title1 {
+  font-family: "Space Grotesk", sans-serif;
+  background-color: white;
+  display: inline-block;
+  border-radius: 10px;
+  font-weight: 500;
+  padding: 10px 15px;
+  font-size: 30px;
+  line-height: 1;
+}
+
+.ppc-learn-more {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 50px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.ppc-icon {
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(320deg);
+}
+.ppc-icon, span{
+  line-height: 28px;
+}
+
+.ppc-image img {
+  width: 210px;
+  height: auto;
+}
+

@@ -25,7 +25,7 @@ const PayClick = () => {
           {/* Right Section: Image */}
           <div className="ppc-image">
             <img
-              src="./src/assets/tokyo-selecting-a-value-in-the-browser-window 1.svg"
+              src="./src/assets/Illustration.png"
               alt="Pay-per-click visual"
             />
           </div>
